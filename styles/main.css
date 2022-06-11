@@ -164,9 +164,10 @@ main {
 /*++++++++++++ Project ++++++++++++*/
 .project-items {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(270px, 320px));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 325px));
     grid-template-rows: minmax(250px, 295px);
     grid-auto-rows: minmax(250px, 295px);
+    place-content: space-evenly;
     gap: 10px;
 }
 
